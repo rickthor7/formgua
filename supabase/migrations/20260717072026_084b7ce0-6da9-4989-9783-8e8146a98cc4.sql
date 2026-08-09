@@ -1,0 +1,1 @@
+ALTER TABLE public.forms ADD COLUMN IF NOT EXISTS success_message text, ADD COLUMN IF NOT EXISTS success_links jsonb NOT NULL DEFAULT '[]'::jsonb;

@@ -1,0 +1,87 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+@keyframes rain {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+@keyframes flicker {
+  0%,100% { opacity:1 }
+  50% { opacity:0.6 }
+}
+
+@keyframes glitch {
+  0% { transform: translate(0,0); }
+  20% { transform: translate(-3px,2px); }
+  40% { transform: translate(3px,-2px); }
+  60% { transform: translate(-2px,1px); }
+  80% { transform: translate(2px,-1px); }
+  100% { transform: translate(0,0); }
+}
+
+.matrix text {
+  fill: #00ff88;
+  font-size: 14px;
+  font-family: monospace;
+  animation: rain 3s linear infinite;
+}
+
+.neon {
+  fill: #00F0FF;
+  font-family: monospace;
+  font-size: 36px;
+  animation: flicker 1.5s infinite;
+}
+
+.boot {
+  fill: #00ff88;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.glitch {
+  animation: glitch 0.2s infinite;
+}
+
+svg:active .glitch {
+  animation: glitch 0.05s infinite;
+}
+</style>
+
+<!-- Background -->
+<rect width="100%" height="100%" fill="#050505"/>
+
+<!-- MATRIX RAIN -->
+<g class="matrix">
+  <text x="10" y="0">101010</text>
+  <text x="60" y="50">110101</text>
+  <text x="120" y="20">010101</text>
+  <text x="180" y="80">111000</text>
+  <text x="240" y="10">101101</text>
+  <text x="300" y="60">001011</text>
+  <text x="360" y="30">111111</text>
+  <text x="420" y="90">000111</text>
+  <text x="480" y="40">101010</text>
+</g>
+
+<!-- TERMINAL BOOT -->
+<text x="20" y="40" class="boot">
+> initializing system...
+</text>
+<text x="20" y="60" class="boot">
+> loading modules...
+</text>
+<text x="20" y="80" class="boot">
+> bypassing security...
+</text>
+<text x="20" y="100" class="boot">
+> access granted ✔
+</text>
+
+<!-- LOGO -->
+<g class="glitch">
+  <text x="20" y="200" class="neon">rickthor7</text>
+</g>
+
+</svg>

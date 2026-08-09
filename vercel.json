@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/form/:idOrSlug",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "(?i).*(facebookexternalhit|Facebot|WhatsApp|Twitterbot|LinkedInBot|TelegramBot|Slackbot|Discordbot|Pinterest|SkypeUriPreview|vkShare|redditbot|Embedly|Google-PageRenderer|Googlebot|bingbot|Applebot|YandexBot|DuckDuckBot|Baiduspider|MJ12bot|AhrefsBot|SemrushBot|DotBot|Sogou).*"
+        }
+      ],
+      "destination": "https://abawyqvkouvyjxfhhsjt.supabase.co/functions/v1/og-form?idOrSlug=:idOrSlug"
+    },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

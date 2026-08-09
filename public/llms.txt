@@ -1,0 +1,21 @@
+# FormGua
+
+> FormGua adalah pembuat form (form builder) gratis berbahasa Indonesia untuk survei, kuis ujian anti-cheat, dan giveaway saldo e-wallet, lengkap dengan analisis data berbasis AI.
+
+FormGua membantu siapa saja membuat form online tanpa biaya: survei, kuesioner penelitian, kuis ujian dengan mode anti-contek, hingga giveaway. Pengguna bisa login dengan Google atau lanjut tanpa login. Member premium mendapat fitur Analisis Data AI untuk menjalankan uji korelasi, statistik deskriptif, uji beda, dan regresi langsung dari data respon form.
+
+## Halaman Utama
+- [Beranda](https://formgua.my.id/): Ringkasan fitur FormGua dan cara mulai membuat form gratis.
+- [Pilih Mode](https://formgua.my.id/pilih-mode): Pilih jenis form yang ingin dibuat (survei, kuis, giveaway).
+- [Panduan](https://formgua.my.id/panduan): Panduan langkah demi langkah menggunakan FormGua.
+- [Tentang](https://formgua.my.id/tentang): Informasi tentang FormGua dan timnya.
+- [FAQ](https://formgua.my.id/faq): Pertanyaan yang sering diajukan seputar FormGua.
+
+## Fitur Unggulan
+- Form builder gratis selamanya, anti-monoton.
+- Kuis ujian dengan proteksi anti-cheat.
+- Giveaway saldo e-wallet dengan spin wheel.
+- Analisis Data AI (premium): uji korelasi Pearson, statistik deskriptif, uji beda, dan regresi.
+
+## Optional
+- [Masuk / Daftar](https://formgua.my.id/auth): Halaman autentikasi pengguna.

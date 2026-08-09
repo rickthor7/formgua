@@ -1,0 +1,1 @@
+ALTER TABLE public.forms ADD COLUMN password TEXT DEFAULT NULL;
